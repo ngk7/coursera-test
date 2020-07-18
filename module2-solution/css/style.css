@@ -4,17 +4,20 @@
 	text-align: center;
     font-family: Times New Roman, Times, serif;
 }
+
+.cont-1 , .cont-2 , .cont-3{
+	position: relative;
+	color:black;
+	background: yellow;
+	border: 2px solid red;
+}
 .con-1{
 	position: absolute;
 	 bottom: 0;
 	  left: 0; 
 	  width: 100px; 
 	  text-align:right
-}
-.cont-1 , .cont-2 , .cont-3{
-	position: relative;
-	color:black;
-	background: yellow;
-	border: 2px solid red;
+	  background:red;
+	  border: 1px solid black;
 }
 
