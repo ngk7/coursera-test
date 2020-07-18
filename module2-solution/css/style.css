@@ -9,7 +9,7 @@
 	background: yellow;
 	border: 2px solid red;
 }
-.con-1 , .con-2 , .con-3{
+#su , #be , #cs{
 	color:black;
 	position: relative;
 	float: right;
