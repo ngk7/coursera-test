@@ -1,5 +1,16 @@
 #main-header{
-	color: green;
-	min-height: 30px;
+	color: black;
+	min-height: 20px;
 	text-align: center;
+    font-family: Times New Roman, Times, serif;
+}
+.cont-1 , .cont-2 , .cont-3{
+	color:black;
+	background: yellow;
+	border: 2px solid red;
+}
+.con-1 , .con-2 , .con-3{
+	color:red;
+	position: relative;
+	float: top right;
 }
