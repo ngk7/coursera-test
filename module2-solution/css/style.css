@@ -5,12 +5,15 @@
     font-family: Times New Roman, Times, serif;
 }
 .cont-1 , .cont-2 , .cont-3{
+	position: relative;
 	color:black;
 	background: yellow;
 	border: 2px solid red;
 }
-section {
-    position: relative;
-    float: bottom left;
-    width:20%;
+.con-1{
+	position: absolute;
+	 top: 0;
+	  right: 0; 
+	  width: 100px; 
+	  text-align:right
 }
