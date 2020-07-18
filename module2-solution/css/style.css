@@ -11,5 +11,6 @@
 }
 section {
     position: relative;
-    float: left;
+    float: bottom left;
+    width:20%;
 }
