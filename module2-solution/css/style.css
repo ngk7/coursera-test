@@ -15,9 +15,9 @@
 	position: absolute;
 	 top: 0;
 	  right: 0; 
-	  width: 100px; 
+	  width: 80px; 
 	  text-align:right
-	  background:red;
+	 background-color :red;
 	  border: 2px solid black;
 }
 
