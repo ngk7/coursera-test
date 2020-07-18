@@ -9,8 +9,9 @@
 	background: yellow;
 	border: 2px solid red;
 }
-#su , #be , #cs{
-	color:black;
-	position: relative;
-	float: right;
+section {
+    position: relative;
+    width: 50%;
+    border: 1px solid;
+    float:left;
 }
