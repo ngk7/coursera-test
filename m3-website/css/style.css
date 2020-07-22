@@ -97,6 +97,9 @@ body{
 #testimonial{
 	font-style: italic;
 }
+#avai{
+	color:pink;
+}
 
 
 
@@ -137,6 +140,116 @@ body{
 	color: #fff;
 	opacity: 0.8;
 }
+/*col-caegories*/
+.category-tile{
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	width: 200px;
+	height: 250px;
+	margin:0 auto 15px;
+	}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+}
+#col-categories-title{
+	color:#808080;
+	
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#col-categories-title + div{
+	margin-bottom: 50px;
+}
+
+.col-art-tile{
+	margin-bottom: 25px;
+}
+.col-art-tile hr{
+	width:80%;
+}
+.col-art-tile .col-art-des{
+	font-size: 1.1em;
+	text-align: center;
+	margin-top: -15px;
+	margin-right: -15px;
+}
+.col-art-tile .col-art-des span{
+	font-size: 0.8em;
+}
+.col-art-photo {
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+	padding: 0;
+	margin-right: -15px;
+	margin-left: auto;
+	margin-bottom: 20px;
+	max-width: 200px;
+	
+
+}
+.col-art-photo div{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width:80px;
+	background-color: #557c3e;
+	text-align: center;
+}
+.col-art-description{
+	padding-right: 30px;
+}
+h3.col-art-title{
+margin:0 0 10px;
+color: #e7bc0f;
+}
+.col-art-details{
+	font-size: 0.9em;
+	font-style: italic;
+}
+#about-info{
+	width:500px;
+	border:2px solid grey;
+	background-color:#000;
+	opacity: 0.8;
+	color: #fff;
+	margin:auto;
+
+}
+#matter{
+	margin:15px;
+}
+.offer{
+	width:600px;
+	background-color: #000;
+	opacity: 0.8;
+	color: #fff;
+	border:3px solid grey;
+	font-size: 45px;
+	margin:auto;
+}
+#matter1{
+	margin-left : 10px;
+}
+.new{
+
+	color: silver;
+	text-align: center;
+	font-size: 25px;
+	margin:auto;
+}
+
 
 /***largedevonly***/
 @media (min-width: 1200px){
@@ -145,6 +258,12 @@ body{
 	height: 675px;
 	box-shadow: 0 0 50px #3f0c1f;
 	border:2px solid #3f0c1f;
+}
+.col-art-des{
+	text-align: center;
+	margin-left: 25px;
+	padding-left: 0px;
+
 }
 }
 /*med-dev-only*/
@@ -174,6 +293,12 @@ body{
 	width:640px;
 	margin:15px auto 0;
    }
+   .col-art-des{
+	text-align: center;
+	margin-left: 50px;
+	padding-left: 50px;
+
+}
 }
 /*xs-dev-only*/
 @media (max-width: 767px){
@@ -248,6 +373,14 @@ margin-right: 5px;
 	width:640px;
 	margin: 0 auto 15px auto;
 }
+
+.col-art-photo{
+	margin-right: auto;
+}
+.col-art-des{
+	text-align: center;
+}
+
 }
 
 /*super-xs-small-dev-nly*/
@@ -272,6 +405,39 @@ margin-right: 5px;
 	margin:0 auto 15px;
 	
 }
+#about-info{
+	width:400px;
+	}
+	.offer{
+	width:400px;
+	font-size: 35px;
+}
 	
 
+}
+@media (max-width: 470px)
+{
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+	#bio-tile , #ra-tile , #collections-tile  {
+	width:250px;
+	margin:0 auto 15px;
+	}
+
+#about-info{
+	width:300px;
+}
+.offer{
+	width:300px;
+	font-size: 30px;
+}
+.new{
+	font-size: 15px;
+}
 }
