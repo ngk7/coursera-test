@@ -1,0 +1,125 @@
+body{
+	font-family: 'Comic Neue', cursive;
+	color:#000;
+	font-size: 18px;
+	}
+
+*{
+	box-sizing: border-box;
+}
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+    margin-bottom: 0;
+    min-height: 60px;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+	text-shadow: 1px 1px 1px #222;
+	
+}
+.navbar-brand h1{
+	font-size: 1.5em;
+	color: #000;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.visible-xs{
+	margin-bottom: 0;
+	padding-top: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size:1em;
+	
+}
+hr.visible-xs{
+	margin-top:0;
+	padding-top: 0;
+	border-top: 2px solid black;
+
+}
+#nav-list{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border:2px solid #000;
+}
+.navbar-toggle{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#chi-tile , #beef-tile ,#sushi-tile {
+	height: 800px;
+	width: 100%;
+	margin:auto;
+	margin-bottom: 20px;
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+	padding:5px 30px 30px;
+	background-color: #808080;
+
+}
+#col-categories-title{
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px #222;
+}
+#chi-info , #be-info ,#su-info{
+	font-weight: bold;
+	 margin-bottom: 0px;
+	
+}
+#cspan , #bspan , #sspan{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px #000;
+	padding-bottom: 10px;
+
+
+}
+@media (max-width: 767px){
+	#collapsable-nav{
+	background-color: #fff;
+}
+#chi-tile , #beef-tile ,#sushi-tile{
+	padding:5px 30px 30px;
+	width:500px;
+	overflow: hidden;
+	margin:20px auto;
+}
+}
+@media (max-width: 560px){
+	#chi-tile , #beef-tile ,#sushi-tile{
+	padding: 30px;
+	width:400px;
+
+	margin:20px auto ;
+}
+}
+@media (max-width: 450px){
+	#chi-tile , #beef-tile ,#sushi-tile{
+	padding: 30px;
+	width:300px;
+
+	margin:20px auto ;
+}
+}
